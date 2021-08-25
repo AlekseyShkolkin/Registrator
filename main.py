@@ -13,7 +13,7 @@ import pandas as pd
 #import serial
 #import csv
 
-# Глобальные настройки
+# Глобальные настройки vvvv
 Window.clearcolor = (255, 255, 255, 1)
 Object = '0'
 Start = 0.0
