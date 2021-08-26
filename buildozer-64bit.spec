@@ -176,7 +176,7 @@ fullscreen = 0
 # see https://google.github.io/android-gradle-dsl/current/com.android.build.gradle.internal.dsl.PackagingOptions.html
 # can be necessary to solve conflicts in gradle_dependencies
 # please enclose in double quotes 
-# e.g. android.add_packaging_options = "exclude 'META-INF/commowwwn.kotlin_module'", "exclude 'META-INF/*.kotlin_module'"
+# e.g. android.add_packaging_options = "exclude 'META-INF/common.kotlin_module'", "exclude 'META-INF/*.kotlin_module'"
 #android.add_packaging_options =
 
 # (list) Java classes to add as activities to the manifest.
@@ -226,7 +226,7 @@ fullscreen = 0
 #android.copy_libs = 1
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
-android.arch = armeabi-v7a
+android.arch = arm64-v8
 
 # (int) overrides automatic versionCode computation (used in build.gradle)
 # this is not the same as app version and should only be edited if you know what you're doing

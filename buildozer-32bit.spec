@@ -176,7 +176,7 @@ fullscreen = 0
 # see https://google.github.io/android-gradle-dsl/current/com.android.build.gradle.internal.dsl.PackagingOptions.html
 # can be necessary to solve conflicts in gradle_dependencies
 # please enclose in double quotes 
-# e.g. android.add_packaging_options = "exclude 'META-INF/commowwwn.kotlin_module'", "exclude 'META-INF/*.kotlin_module'"
+# e.g. android.add_packaging_options = "exclude 'META-INF/common.kotlin_module'", "exclude 'META-INF/*.kotlin_module'"
 #android.add_packaging_options =
 
 # (list) Java classes to add as activities to the manifest.
