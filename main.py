@@ -5,10 +5,10 @@ from kivy.uix.textinput import TextInput
 from kivy.uix.boxlayout import BoxLayout
 from kivy.core.window import Window
 from kivy.uix.button import Button
-from kivy.uix.scrollview import ScrollView
-from kivy.properties import StringProperty
-from kivy.lang import Builder
-import glue
+#from kivy.uix.scrollview import ScrollView
+#from kivy.properties import StringProperty
+#from kivy.lang import Builder
+#import glue
 import pandas as pd
 #import serial
 #import csv
