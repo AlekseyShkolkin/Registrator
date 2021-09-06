@@ -1,19 +1,12 @@
 from kivy.app import App
-#from kivy.data.style import Popup
 from kivy.uix.label import Label
 from kivy.uix.textinput import TextInput
 from kivy.uix.boxlayout import BoxLayout
 from kivy.core.window import Window
 from kivy.uix.button import Button
-#from kivy.uix.scrollview import ScrollView
-#from kivy.properties import StringProperty
-#from kivy.lang import Builder
-#import glue
 import pandas as pd
-#import serial
-#import csv
 
-# Глобальные настройки vvvv
+# Глобальные настройки
 Window.clearcolor = (255, 255, 255, 1)
 Object = '0'
 Start = 0.0
@@ -126,9 +119,6 @@ class MyApp(App):
         Vbox.add_widget(self.btnBT)
         Vbox.add_widget(self.input_object)
 
-        #Hbox = BoxLayout(orientation='horizontal', padding=10, size_hint=(1,None), height=80, pos_hint={'top': 1})
-        #Hbox.add_widget(self.StartLabel)
-        #Hbox.add_widget(self.StepLabel)
         H2box = BoxLayout(orientation='horizontal', padding=10, spacing = 10)
         H2box.add_widget(self.input_start)
         H2box.add_widget(self.input_step)
@@ -137,9 +127,7 @@ class MyApp(App):
         Tbox.add_widget(self.btnCreate)
         Tbox.add_widget(self.object)
 
-
         Superbox.add_widget(Vbox)
-        #Superbox.add_widget(Hbox)
         Superbox.add_widget(H2box)
         Superbox.add_widget(Tbox)
         return Superbox
